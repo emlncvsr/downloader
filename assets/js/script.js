@@ -5,7 +5,7 @@ document.getElementById("download-form").addEventListener("submit", function (ev
 
   resultDiv.innerHTML = "Downloading...";
 
-  fetch("https://your-netlify-site.netlify.app/.netlify/functions/download", {
+  fetch("https://video-downloader-tool.netlify.app/.netlify/functions/download", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
