@@ -201,3 +201,6 @@ resources/_gen/
 # Next.js
 .next/
 out/
+
+# Local Netlify folder
+.netlify
