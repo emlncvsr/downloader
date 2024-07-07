@@ -36,8 +36,23 @@ h3 {
     display: none;
 }
 
+.btn {
+    display: flex;
+    align-items: center;
+}
+
 .bg-dark {
     background-color: transparent !important;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.centered button {
+    gap: 5px;
 }
 
 .input-group {
@@ -73,7 +88,8 @@ button:hover,
 }
 
 button:focus,
-.form-control:focus {
+.form-control:focus,
+input:-webkit-autofill:focus {
     background: rgba(99, 99, 99, 0.4) !important;
     color: var(--second) !important;
     border-color: var(--accent) !important;
