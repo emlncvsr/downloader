@@ -18,8 +18,6 @@ $(document).ready(function () {
 
             // Soumettre le formulaire après la validation
             this.submit();
-        } else {
-            console.log("Le formulaire n'est pas valide.");
         }
     });
 });
