@@ -1,8 +1,0 @@
-{
-    "name": "Downloader",
-    "theme_color": "#408d4f",
-    "background_color": "#1e1e1e",
-    "display": "browser",
-    "scope": "/",
-    "start_url": "/"
-}
