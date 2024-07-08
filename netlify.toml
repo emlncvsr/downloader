@@ -1,6 +1,0 @@
-[build]
-  publish = "public"  # Remplacez "public" par le dossier que Netlify doit publier, si différent
-  command = "pip install -r requirements.txt && python app.py"
-
-[build.environment]
-  PYTHON_VERSION = "3.8"
